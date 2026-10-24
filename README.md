@@ -1,7 +1,7 @@
 # AdrenoPM4
 
-Adreno PM4 packet encoding kit. Encodes A740 state, constants, shader bindings, VPC and rasterizer packets.
+Adreno PM4 packet encoding and A740 command helpers.
 
-Current state: used by the native GPU submission path.
+used by the native GPU submission path.
 
-Built into the kernel with the sheng GPU stack.
+Build and interface details: [documentation](https://unixnu.com/drivers/adreno-pm4). Component sources and dependencies: [catalog](https://unixnu.com/reference/components).
